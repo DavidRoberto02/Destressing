@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_asmr"
+        android:title="@string/home_title"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_microphone"/>
+    <item
+        android:id="@+id/action_music"
+        android:title="@string/home_music"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_music"/>
+    <item
+        android:id="@+id/action_sound"
+        android:title="@string/home_music_blank"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_sound"/>
+
+</menu>
